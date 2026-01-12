@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MXXC</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mxxc.vercel.app/" />
+    <meta property="og:title" content="MXXC - Share Fast" />
+    <meta property="og:description" content="Peer-to-peer file transfer. No servers. No limits. Just you and your data." />
+    <meta property="og:image" content="https://mxxc.vercel.com/og-image.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mxxc.vercel.app/" />
+    <meta property="twitter:title" content="MXXC - Share Fast" />
+    <meta property="twitter:description" content="Peer-to-peer file transfer. No servers. No limits. Just you and your data." />
+    <meta property="twitter:image" content="https://mxxc.vercel.app/og-image.png" />
+  </head>
+  <body>
+    <script>
+      window.global = window;
+      window.process = { env: {} };
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
